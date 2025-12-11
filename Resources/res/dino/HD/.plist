@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>d_1.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{42,47}</string>
+                <key>spriteSourceSize</key>
+                <string>{42,47}</string>
+                <key>textureRect</key>
+                <string>{{0,46},{42,47}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 3 4 1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>42 17 28 47 0 47 0 0 42 0</string>
+                <key>verticesUV</key>
+                <string>42 63 28 93 0 93 0 46 42 46</string>
+            </dict>
+            <key>d_2.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{41,46}</string>
+                <key>spriteSourceSize</key>
+                <string>{41,46}</string>
+                <key>textureRect</key>
+                <string>{{0,93},{41,46}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>4 5 6 1 4 6 1 3 4 1 2 3 0 1 6</string>
+                <key>vertices</key>
+                <string>41 43 18 46 7 46 1 35 0 33 0 0 41 0</string>
+                <key>verticesUV</key>
+                <string>41 136 18 139 7 139 1 128 0 126 0 93 41 93</string>
+            </dict>
+            <key>d_3.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{43,46}</string>
+                <key>spriteSourceSize</key>
+                <string>{43,46}</string>
+                <key>textureRect</key>
+                <string>{{0,0},{43,46}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 3 4 1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>43 17 29 46 0 46 0 0 43 0</string>
+                <key>verticesUV</key>
+                <string>43 17 29 46 0 46 0 0 43 0</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>3</integer>
+            <key>pixelFormat</key>
+            <string>RGBA8888</string>
+            <key>premultiplyAlpha</key>
+            <false/>
+            <key>realTextureFileName</key>
+            <string>.png</string>
+            <key>size</key>
+            <string>{43,139}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:19044b5f9aace9221a7e40fae876fce4:edb777e162ead183b0c9e3496ce4d4ce:591aee115b87a931d3134c9444cafc2d$</string>
+            <key>textureFileName</key>
+            <string>.png</string>
+        </dict>
+    </dict>
+</plist>

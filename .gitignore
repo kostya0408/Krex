@@ -1,0 +1,6 @@
+proj.win32/
+.vs/
+out/
+proj.linux/
+proj.android/
+proj.ios_mac/
