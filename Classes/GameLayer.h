@@ -2,7 +2,7 @@
 #ifndef _Cactus_ 
 #define _Cactus_
 
-#include "cocos2d.h";
+#include "cocos2d.h"
 #include "Dino.h"
 #include"Enemy.h"
 #include"background.h"
@@ -15,6 +15,8 @@ class GameLayer : public Layer {
 
 public:
 
+	Size  visibleSize = Director::getInstance()->getVisibleSize();
+	Vec2 origin = Director::getInstance()->getVisibleOrigin();
 
 
 	virtual bool init();
@@ -34,8 +36,7 @@ public:
 	
 	void update(float dt);
 
-	Size  visibleSize = Director::getInstance()->getVisibleSize();
-	Vec2 origin = Director::getInstance()->getVisibleOrigin();
+	
 	int speed = 1;
 	int speed_1 = 1;
 

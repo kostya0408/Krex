@@ -65,6 +65,7 @@ list(APPEND GAME_SOURCE
      Classes/Decoration.cpp
      Classes/MenuScene.cpp
      Classes/KidLayer.cpp
+     Classes/GameOver.cpp
      )
 list(APPEND GAME_HEADER
      Classes/AppDelegate.h
@@ -76,6 +77,7 @@ list(APPEND GAME_HEADER
      Classes/Decoration.h
      Classes/MenuScene.h
      Classes/KidLayer.h
+     Classes/GameOver.h
      )
 
 

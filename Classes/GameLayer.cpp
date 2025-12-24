@@ -72,12 +72,15 @@ bool GameLayer::init() {
 
 }
 
-void GameLayer::onKeyPressed(cocos2d::EventKeyboard::KeyCode keyCode, cocos2d::Event* event)
+void GameLayer::onKeyPressed(cocos2d::EventKeyboard::KeyCode keyCode,
+    cocos2d::Event* event)
 {
-    if (keyCode == EventKeyboard::KeyCode::KEY_UP_ARROW) {
+    if (keyCode == EventKeyboard::KeyCode::KEY_W)
+    {
         dino->move();
     }
 }
+
 
 
 Vector<SpriteFrame*> GameLayer::getAnimation(const char* format, int count) {
